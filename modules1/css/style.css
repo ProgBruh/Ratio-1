@@ -189,6 +189,7 @@ img {max-width: 100%;}
   justify-content: space-between;
   align-items: center;
   max-width: 531px;
+  /* для нуля единицы измерения писать необязательно */
   padding: 49px 30.71px 33px 0px;
 }
 
@@ -319,6 +320,7 @@ img {max-width: 100%;}
 .slide-1 {
   max-width: 645px;
   padding: 60px 70px 50px;
+  /* для нуля единицы измерения писать необязательно */
   box-shadow: 0px 20px 0px rgba(59, 8, 131, .2);
 }
 
@@ -328,6 +330,7 @@ img {max-width: 100%;}
   padding: 55px 60px 55px 40px;
   top: 0;
   width: 400px;
+  /* для нуля единицы измерения писать необязательно */
   box-shadow: 0px 20px 0px rgba(59, 8, 131, .1);
   border: 1px solid #9C69E2;
 }
@@ -566,6 +569,7 @@ img {max-width: 100%;}
 
 @media (max-width: 1100px) {
   .header {
+    /* для нуля единицы измерения писать необязательно */
     padding: 15px 0px;
     margin-bottom: 20px;
   }
@@ -629,6 +633,7 @@ img {max-width: 100%;}
   }
 
   .features__item {
+    /* для нуля единицы измерения писать необязательно */
     margin-right: 0px;
   }
 
@@ -841,6 +846,6 @@ img {max-width: 100%;}
   .footer__right-title {
     font-size: 13px;
   }
-
+  /* если стили отсутствуют, то лучше не оставлять элемент пустым */
   .footer__right-title {}
 }
